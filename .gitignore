@@ -34,22 +34,22 @@ mvnw
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-client/node_modules
-client/.pnp
-client/.pnp.js
+src/main/client/node_modules
+src/main/client/.pnp
+src/main/client/.pnp.js
 
 # testing
-client/coverage
+src/main/client/coverage
 
 # production
-client/build
+src/main/client/build
 
 # misc
-client/.DS_Store
-client/.env.local
-client/.env.development.local
-client/.env.test.local
-client/.env.production.local
+src/main/client/.DS_Store
+src/main/client/.env.local
+src/main/client/.env.development.local
+src/main/client/.env.test.local
+src/main/client/.env.production.local
 
 npm-debug.log*
 yarn-debug.log*
